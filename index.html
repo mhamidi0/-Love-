@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121f">
+  <meta name="description" content="یک گوشه‌ی کوچک از احساسم، برای تو.">
+  <title>برای تو، عشق زندگیم</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="صفحه‌ی آغاز">برای تو <span>♥</span></a>
+    <button class="sound-toggle" id="glowToggle" type="button" aria-pressed="false">
+      <span class="toggle-dot"></span><span id="glowLabel">حالت درخشان</span>
+    </button>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="eyebrow"><span class="eyebrow-line"></span> یک چیز کوچیک، از ته دل <span class="eyebrow-line"></span></div>
+      <div class="orbit" aria-hidden="true">
+        <div class="orbit-ring ring-a"></div><div class="orbit-ring ring-b"></div>
+        <div class="orbit-core">♥</div><i class="spark s1">✦</i><i class="spark s2">✧</i><i class="spark s3">✦</i>
+      </div>
+      <p class="hero-kicker">برای تو،</p>
+      <h1>عشق <em>زندگیم</em></h1>
+      <p class="hero-copy">این صفحه رو ساختم تا یک بار دیگه یادت بندازم<br class="desktop-only"> که چقدر بودنت برای من باارزشه.</p>
+      <a class="primary-btn" href="#chapters">بیا از اینجا شروع کنیم <span>↓</span></a>
+      <div class="scroll-note">آروم بیا پایین</div>
+    </section>
+
+    <section class="intro section-wrap" id="chapters">
+      <div class="section-label">سه دلیل از بین هزاران دلیل</div>
+      <h2>چیزهایی که در تو <em>دوست دارم</em></h2>
+      <p class="section-sub">نه فقط چیزهایی که انجام می‌دی؛ خودِ کسی که هستی.</p>
+      <div class="cards">
+        <article class="reason-card" tabindex="0">
+          <div class="card-number">۰۱ / مهربونی</div>
+          <div class="card-symbol kindness">✳</div>
+          <h3>مهربونیِ تو</h3>
+          <p>مهربونی‌ات از اون چیزهاییه که حتی توی لحظه‌های ساده هم خودش رو نشون می‌ده. این لطافت و توجهت برای من خیلی ارزشمنده.</p>
+          <div class="card-foot">چیزی که در تو تحسین می‌کنم <span>↗</span></div>
+        </article>
+        <article class="reason-card featured" tabindex="0">
+          <div class="card-number">۰۲ / حضور</div>
+          <div class="card-symbol presence">⌂</div>
+          <h3>بودنِ تو کنارم</h3>
+          <p>گاهی لازم نیست اتفاق خاصی بیفته؛ همین که هستی، همین که می‌تونم باهات حرف بزنم، برای من معنی زیادی داره.</p>
+          <div class="card-foot">حسی که با تو دارم <span>↗</span></div>
+        </article>
+        <article class="reason-card" tabindex="0">
+          <div class="card-number">۰۳ / شخصیت</div>
+          <div class="card-symbol character">✧</div>
+          <h3>شخصیتِ قشنگت</h3>
+          <p>طرز فکر کردنت، نگاهت به دنیا و ویژگی‌هایی که تو رو تبدیل به خودت کرده؛ من برای همه‌ی این‌ها احترام و علاقه قائلم.</p>
+          <div class="card-foot">خودِ واقعیِ تو <span>↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="interlude section-wrap">
+      <div class="interlude-mark">“</div>
+      <p>قرار نیست همیشه جمله‌های بزرگی داشته باشم؛<br>گاهی ساده‌ترین حقیقت، مهم‌ترینه:</p>
+      <h2>من <em>دوستت دارم.</em></h2>
+      <span class="interlude-line"></span>
+    </section>
+
+    <section class="surprise section-wrap">
+      <div class="section-label">یک مکث کوچولو</div>
+      <h2>یه حرف دیگه هم <em>هست...</em></h2>
+      <p class="section-sub">اگه آماده‌ای، این دکمه رو بزن.</p>
+      <button class="surprise-btn" id="surpriseBtn" type="button">
+        <span class="surprise-icon">✦</span>
+        <span>حرفی که می‌خوام بدونی</span>
+        <span class="surprise-arrow">←</span>
+      </button>
+      <div class="reveal-message" id="revealMessage" hidden>
+        <div class="reveal-heart">♥</div>
+        <p>تو لازم نیست کامل باشی یا همیشه حالت خوب باشه تا برام ارزشمند باشی. من خودِ تو رو دوست دارم؛ با روزهای خوبت، روزهای سختت و تمام چیزهایی که تو رو می‌سازن.</p>
+        <span>این رو یادت بمونه، عشق زندگیم.</span>
+      </div>
+    </section>
+
+    <section class="closing section-wrap">
+      <div class="closing-frame">
+        <div class="closing-stars" aria-hidden="true">✦　 ·　 ✧　 ·　 ✦</div>
+        <p class="closing-small">و آخرِ این صفحه...</p>
+        <h2>ممنونم که <em>خودتی.</em></h2>
+        <p class="closing-copy">بودنت برای من یک اتفاق معمولی نیست.<br>امیدوارم همیشه بدونی چقدر عزیزی و چقدر دوستت دارم.</p>
+        <div class="signature">با تمام علاقه‌ام <span>♥</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>با عشق ساخته شده</span><span class="footer-heart">♥</span><span>فقط برای تو</span>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
